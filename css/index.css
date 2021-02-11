@@ -82,7 +82,7 @@ input {
 .photo-container ul img {
   width: 100%;
   transform: scale(1.25);
-  transition: transform 1.25s;
+  transition: transform 1.25s cubic-bezier(.55, -.62, .27, 1.2);
 }
 
 .photo-container li:hover img {
