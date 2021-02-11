@@ -4,6 +4,10 @@ body {
   color: #3f4850;
 }
 
+#root {
+  background-color: firebrick;
+}
+
 h2 {
   font-size: 2em;
   margin: 52px 0 40px;
@@ -86,7 +90,7 @@ input {
 }
 
 .photo-container li:hover img {
-  transform: scale(5);
+  transform: scale(1.65);
 }
 
 .photo-container .not-found {
